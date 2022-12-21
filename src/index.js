@@ -147,3 +147,4 @@ function notification(totalImg, totalHits) {
     Notify.success(`Hooray! We found ${totalHits} images.`);
   }
 }
+
