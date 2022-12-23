@@ -3,12 +3,9 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-
-
 const API_KEY = '31932971-6d86aa91a6d944e181d712fa4';
 const BASIC_URL = `https://pixabay.com/api/?key=${API_KEY}&q=`;
 const searchFields = '&image_type=photo&orientation=horizontal&safesearch=true';
-
 
 const cardBox = document.querySelector('.main-gallery');
 const refs = {
